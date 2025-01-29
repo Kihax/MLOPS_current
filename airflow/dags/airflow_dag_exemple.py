@@ -58,7 +58,7 @@ with DAG(
     # [START extract_function]
     def extract(**kwargs):
         ti = kwargs["ti"]
-        data_string = '{"1001": 301.27, "1002": 433.21, "1003": 502.22}'
+        data_string = '{"1001": 301.27, "1002": 433.21, "1003": 502.22, "1004": 101.37}'
         ti.xcom_push("order_data", data_string)
 
     # [END extract_function]

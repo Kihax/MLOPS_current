@@ -58,11 +58,11 @@ with DAG(
     
     def get_data(**kwargs):
         ti = kwargs["ti"]
-        np.random.seed(42)
+        np.random.seed(7)
         X = np.random.rand(100, 1)
         y = 3.5 * X.squeeze() + np.random.randn(100) * 0.5
         X_train_, X_test_, y_train_, y_test_ = train_test_split(
-            X, y, test_size=0.2, random_state=42)
+            X, y, test_size=0.2, random_state=7)
         data["X_train"] = X_train_
         data["X_test"] = X_test_
         data["y_train"] = y_train_
