@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/fe538a0a902a493691a0721f012a3ffc/artifacts
+end_time: 1738190356944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe538a0a902a493691a0721f012a3ffc
+run_name: inquisitive-swan-151
+run_uuid: fe538a0a902a493691a0721f012a3ffc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738190311309
+status: 4
+tags: []
+user_id: jovyan

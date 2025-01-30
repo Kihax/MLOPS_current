@@ -1,0 +1,10 @@
+digest: 6768f63f
+name: dataset
+profile: '{"features_shape": [1682, 14954], "features_size": 25152628, "features_nbytes":
+  201221024, "targets_shape": [1682], "targets_size": 1682, "targets_nbytes": 13456}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 14954]}}]", "targets": "[{\"type\": \"tensor\",
+  \"tensor-spec\": {\"dtype\": \"int64\", \"shape\": [-1]}}]"}}'
+source: '{"tags": {"mlflow.user": "jovyan", "mlflow.source.name": "/opt/conda/lib/python3.11/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
